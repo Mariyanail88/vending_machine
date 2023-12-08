@@ -1,11 +1,11 @@
-package model;
+package payment_methods;
 
 import interfaces.MoneyCollector;
 
-public class BankCardAcceptor implements MoneyCollector {
+public class CoinAcceptor implements MoneyCollector {
     private int amount;
 
-    public BankCardAcceptor(int amount) {
+    public CoinAcceptor(int amount) {
         this.amount = amount;
     }
 
