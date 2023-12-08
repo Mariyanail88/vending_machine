@@ -1,6 +1,8 @@
 package model;
 
-public class CoinAcceptor {
+import interfaces.MoneyCollector;
+
+public class CoinAcceptor implements MoneyCollector {
     private int amount;
 
     public CoinAcceptor(int amount) {
